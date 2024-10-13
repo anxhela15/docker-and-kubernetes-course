@@ -1,2 +1,7 @@
-docker-compose run npmservice init --> will execute npm init 
-docker-compose run npmservice install --> will execute npm install
+## Running npm commands using Docker Compose
+
+To initialize a new `npm` project, use the following command:
+
+```bash
+docker-compose run npmservice init
+
